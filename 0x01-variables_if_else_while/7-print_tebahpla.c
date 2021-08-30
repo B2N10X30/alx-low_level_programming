@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main block
+ * main - main uses for loop
  * Description: Print the alphabet in reverse order in lowercase.
  * Return: 0
  */
