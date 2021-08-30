@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - main function uses the while loop to check if letter in to check if it
- * upper case or lowercase then increment
+ * main - main function uses the while loop to check if letter in to check
+ * if it upper case or lowercase then increment
  * Description: prints the uppercase and lowercase alphabet.
  * Return: 0
 */
@@ -26,5 +26,6 @@ int main(void)
 	}
 
 	putchar('\n');
+
 	return (0);
 }
