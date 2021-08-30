@@ -5,7 +5,7 @@
 /* This program detects if an integer n is +ve, -ve or is zero
 * by using the logic in the main function
 * main - print if n is +ve,zero or -ve
-Return: 0
+* Return: 0
 */
 
 int main(void)
@@ -25,7 +25,7 @@ int main(void)
 	}
 	else 
 	{
-		printf("%i is negative", n);
+		printf("%i is negative\n", n);
 	}
 	return (0);
 }
