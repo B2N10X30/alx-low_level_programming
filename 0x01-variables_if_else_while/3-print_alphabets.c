@@ -9,7 +9,6 @@
 int main(void)
 {
 	char c = 'a';
-	char f = 'A';
 
 
 	while (c <= 'z')
@@ -18,13 +17,15 @@ int main(void)
 		c++;
 	}
 
+	char f = 'A';
+
 	while (f <= 'Z')
 	{
-		putchar(c);
-		c++;
+		putchar(f);
+		f++;
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
