@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* This program detects if an integer n is +ve, -ve or is zero
+/**
+* main -prints if the variable n is  positive, negative, or zero
+* This program detects if an integer n is +ve, -ve or is zero
 * by using the logic in the main function
-* main - print if n is +ve,zero or -ve
 * Return: 0
 */
 
@@ -23,7 +24,7 @@ int main(void)
 	{
 		printf("%i is zero\n", n);
 	}
-	else 
+	else
 	{
 		printf("%i is negative\n", n);
 	}
