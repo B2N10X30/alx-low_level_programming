@@ -1,5 +1,6 @@
-include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /* This program detects if an integer n is +ve, -ve or is zero
 * by using the logic in the main function
