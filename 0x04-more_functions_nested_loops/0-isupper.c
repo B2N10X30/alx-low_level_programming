@@ -3,7 +3,13 @@
 
 int main(void)
 {
-    char c;
-    putchar(_isupper(c));
-    return (0); 
+	int _isupper(inc)
+	{
+		if (c >= 'A' && c <= 'Z')
+		{
+			return (1);
+		}
+		else
+			return (0);
+	}
 }
