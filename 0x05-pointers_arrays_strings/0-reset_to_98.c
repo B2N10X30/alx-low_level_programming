@@ -5,7 +5,7 @@
 * @n: int type pointer
 */
 
-void defer(int *n)
+void reset_to_98(int *n)
 {
 *n = 98;
 }
